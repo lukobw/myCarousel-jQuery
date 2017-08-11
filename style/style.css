@@ -75,21 +75,21 @@ table {
 }
 
 .rect1{
-  background-image: url('https://s-media-cache-ak0.pinimg.com/736x/30/28/b5/3028b5c60ad825ebe45d61cb330befc7--train-tracks-couple-photos.jpg');
+  background-image: url('../img/rect1.jpg');
 }
 
 .rect2{
-  background-image: url('https://s-media-cache-ak0.pinimg.com/736x/0a/ce/56/0ace56423ca154caef25ba62ed12bf08--on-your-wedding-day-wedding-goals.jpg');
+  background-image: url('../img/rect2.jpg');
 }
 
 .rect3{
-  background-image: url('https://pbs.twimg.com/profile_images/615663179335536640/E_oIyKbv.jpg');
+  background-image: url('../img/rect3.jpg');
 }
 
 .rect4{
-  background-image: url('https://s-media-cache-ak0.pinimg.com/736x/af/b6/7c/afb67ce072137d7295c72987fb97c976--friend-pictures-friend-pics.jpg');
+  background-image: url('../img/rect4.jpg');
 }
 
 .rect5{
-  background-image: url('http://photo-oto.com/wp-content/uploads/2016/11/SAM_2856-400x400.jpg');
+  background-image: url('../img/rect5.jpg');
 }
