@@ -1,5 +1,4 @@
 $(function(){
-    console.log('Dom ready');
 
     var carouselList = $('#js-myCarousel ul');
     setInterval(changeSlide, 3000);
