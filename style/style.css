@@ -49,6 +49,7 @@ table {
 
 .container {
   margin: 300px auto;
+  position: relative;
   width: 1200px;
 }
 
@@ -92,4 +93,53 @@ table {
 
 .rect5{
   background-image: url('../img/rect5.jpg');
+}
+
+.arrow {
+  background-color: inherit;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  color: white;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  width: 20px;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+}
+
+.arrow-left {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+}
+
+.arrow-right {
+  position: absolute;
+  right: 35%;
+  top: 50%;
+}
+
+.js-indicators {
+  position: absolute;
+  left: 45%;
+  bottom: 0;
+  transition: .2s;
+}
+
+[class*="item"] {
+  border: 1px solid white;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin: 5px;
+}
+[class*="item"]:hover {
+  cursor: pointer;
 }
