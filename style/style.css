@@ -143,3 +143,11 @@ table {
 [class*="item"]:hover {
   cursor: pointer;
 }
+.start {
+  float: left;
+  color: white;
+}
+
+.start:hover {
+  cursor: pointer;
+}
