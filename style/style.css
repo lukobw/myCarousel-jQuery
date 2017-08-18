@@ -69,30 +69,42 @@ table {
 }
 
 .listItem {
+  font-size: 40px;
+  color: white;
   list-style-type: none;
   float: left;
   height: 400px;
   width: 400px;
+  text-align: center;
 }
 
 .rect1{
-  background-image: url('../img/rect1.jpg');
+  /* background-image: url('../img/rect1.jpg'); */
+  background-color: red;
 }
 
 .rect2{
-  background-image: url('../img/rect2.jpg');
+  /* background-image: url('../img/rect2.jpg'); */
+  background-color: green;
+  
 }
 
 .rect3{
-  background-image: url('../img/rect3.jpg');
+  /* background-image: url('../img/rect3.jpg'); */
+  background-color: blue;
+  
 }
 
 .rect4{
-  background-image: url('../img/rect4.jpg');
+  /* background-image: url('../img/rect4.jpg'); */
+  background-color: pink;
+  
 }
 
 .rect5{
-  background-image: url('../img/rect5.jpg');
+  /* background-image: url('../img/rect5.jpg'); */
+  background-color: yellow;
+  
 }
 
 .arrow {
@@ -124,7 +136,7 @@ table {
   top: 50%;
 }
 
-.js-indicators {
+.indicators {
   position: absolute;
   left: 45%;
   bottom: 0;
@@ -150,4 +162,8 @@ table {
 
 .start:hover {
   cursor: pointer;
+}
+
+.active {
+  background-color: red;
 }
